@@ -1,0 +1,17 @@
+4/29/25 
+New Ideas - Add a checksum validator, add option to export as a csv or json file ( JSON file preffered ) 
+Add simple GUI using SDL2
+
+4.30.25
+Lessons: 
+Chars can be converted to integers if need be by minusing their ASCII values, 
+like 
+
+char numA = '5'; 
+int Number = numA - '0'; //Number is now equal to 5
+
+what's going on here
+            number is a character yes but it represents an ASCII value and these values 
+            are sequential ['0' - 48 and so on till 9] so if say you take a char '5' which is value (53) and minus 
+		by '0' (48) then the result is 5 since you can't minus chars it returns their ASCII value instead
+
